@@ -3,11 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css'],
+  styleUrl: './product-list.component.css',
 })
 export class ProductListComponent {
   giff = true;
-  buttonTekst = 'Kkliknij mnie';
+  buttonTekst = 'Kliknij mnie';
 
   onClick() {
     alert('Właśnie kliknąłeś');
