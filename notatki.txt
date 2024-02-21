@@ -1,0 +1,6 @@
+Domyślnie do Angulara 16 komponenty są niezarejestrowane
+
+od wersji 17 stand-alone jest włączone przez co komponent jest samodzielny
+
+aby to zmienić należy wpisać:
+ng new nazwa-projektu --standalone false
