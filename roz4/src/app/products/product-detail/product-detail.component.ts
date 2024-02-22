@@ -28,9 +28,11 @@ export class ProductDetailComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     const product = changes['name'];
-    const oldValue = product.previousValue;
-    const newValue = product.currentValue;
-    console.log(`Produkt zmienił się z ${oldValue} na ${newValue}`);
+    if (!product.isFirstChange()) {
+      const oldValue = product.previousValue;
+      const newValue = product.currentValue;
+      console.log(`Produkt zmienił się z ${oldValue} na ${newValue}`);
+    }
   }
 
   @Input() name = '';

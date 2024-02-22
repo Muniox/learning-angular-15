@@ -44,7 +44,7 @@
     "nonProjectFiles": [
       {
         "file": ".editorconfig",
-        "hash": "6686520031028425313"
+        "hash": "17241496168097493888"
       },
       {
         "file": ".eslintrc.json",
@@ -52,7 +52,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "13044518069027839699"
+        "hash": "4689145951703824387"
       },
       {
         "file": ".prettierignore",
@@ -64,15 +64,15 @@
       },
       {
         "file": ".vscode/extensions.json",
-        "hash": "5331566439708925252"
+        "hash": "11934160580685414355"
       },
       {
         "file": ".vscode/launch.json",
-        "hash": "17038929134016848735"
+        "hash": "17406702432687230417"
       },
       {
         "file": ".vscode/tasks.json",
-        "hash": "5336636969995539451"
+        "hash": "10093397977228577162"
       },
       {
         "file": "README.md",
@@ -108,11 +108,27 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "45164524267951611"
+        "hash": "13056325138548427141"
       },
       {
         "file": "src/app/app.module.ts",
         "hash": "12386814572660967982"
+      },
+      {
+        "file": "src/app/products/product-detail/product-detail.component.css",
+        "hash": "7880671668059854946"
+      },
+      {
+        "file": "src/app/products/product-detail/product-detail.component.html",
+        "hash": "7391007176248008500"
+      },
+      {
+        "file": "src/app/products/product-detail/product-detail.component.spec.ts",
+        "hash": "556906684157095586"
+      },
+      {
+        "file": "src/app/products/product-detail/product-detail.component.ts",
+        "hash": "4059713630541242113"
       },
       {
         "file": "src/app/products/product-list/product-list.component.css",
@@ -120,7 +136,7 @@
       },
       {
         "file": "src/app/products/product-list/product-list.component.html",
-        "hash": "4151709208597733683"
+        "hash": "12828981424396661042"
       },
       {
         "file": "src/app/products/product-list/product-list.component.spec.ts",
@@ -128,11 +144,11 @@
       },
       {
         "file": "src/app/products/product-list/product-list.component.ts",
-        "hash": "1027350745973576985"
+        "hash": "13742326470677643666"
       },
       {
         "file": "src/app/products/products.module.ts",
-        "hash": "9648700321163714126"
+        "hash": "12699157168266323752"
       },
       {
         "file": "src/assets/.gitkeep",
@@ -152,11 +168,11 @@
       },
       {
         "file": "src/styles.css",
-        "hash": "7031447246021394237"
+        "hash": "2995766649710975567"
       },
       {
         "file": "tsconfig.app.json",
-        "hash": "17337579397915052279"
+        "hash": "13119632651406065538"
       },
       {
         "file": "tsconfig.json",
@@ -164,7 +180,7 @@
       },
       {
         "file": "tsconfig.spec.json",
-        "hash": "15575553540147145788"
+        "hash": "5122839733245053999"
       }
     ]
   }
