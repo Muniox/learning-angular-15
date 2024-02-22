@@ -6,11 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './product-list.component.css',
 })
 export class ProductListComponent {
-  giff = true;
-  buttonTekst = 'Kliknij mnie';
+  selectedProduct = 'Mikrofon';
 
-  onClick() {
-    alert('Właśnie kliknąłeś');
-    this.buttonTekst = 'Kliknąłeś';
+  onBuy(name: string) {
+    window.alert(`Właśnie kupiłeś: ${name}!`);
   }
 }

@@ -1,9 +1,14 @@
-<p>product-list works!</p>
-<span
-  [innerHTML]="'Mój tytuł'"
-  [class]="{
-    star: giff,
-    active: true
-  }"
-></span>
-<button (click)="onClick()" style="display: block">{{ buttonTekst }}</button>
+<h2>Lista produktów</h2>
+<ul>
+  <li (click)="selectedProduct = 'Kamera internetowa'">Kamera internetowa</li>
+  <li (click)="selectedProduct = 'Mikrofon'">Mikrofon</li>
+  <li (click)="selectedProduct = 'Klawiatura bezprzewodowa'">
+    Klawiatura bezprzewodowa
+  </li>
+</ul>
+<app-product-detail
+  #product
+  [name]="selectedProduct"
+  (bought)="onBuy($event)"
+></app-product-detail>
+<span> {{ product.name }}</span>
